@@ -1,0 +1,12 @@
+package br.com.udemy.command.dispositivos.alexa.lights;
+
+public class XiaomiLight implements GenericLight {
+
+	public void turnOn() {
+		System.out.println("The XiaomiLight is On");
+	}
+
+	public void turnOff() {
+		System.out.println("The XiaomiLight is Off");
+	}
+}
